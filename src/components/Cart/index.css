@@ -1,0 +1,132 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+.remove-all-items-button {
+  border-width: 0px;
+  padding: 10px;
+  width: 120px;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #0b69ff;
+  cursor: pointer;
+}
+.mycart-removAll-container {
+  display: flex;
+  justify-content: space-between;
+}
+.remove-all-button-container {
+  align-self: center;
+}
+.checkout-button {
+  border-width: 0px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  width: 250px;
+  cursor: pointer;
+}
+.checkout-cart-container {
+  align-self: flex-end;
+  width: 200px;
+}
+.order-total-heading {
+  font-size: 18px;
+}
+.popup-container {
+  background-color: #ffffff;
+  outline: none;
+  height: 50vh;
+  width: 50vw;
+  box-shadow: 0px 2px 4px black;
+}
+.payment-type-container {
+  padding: 20px;
+  width: 50%;
+}
+input[type='radio'] {
+  margin: 10px;
+}
+label {
+  font-size: 20px;
+}
+.checkout-cart-total-container {
+  width: 50%;
+  font-size: 15px;
+}
+
+dt {
+  font-size: 25px;
+}
+dd {
+  font-size: 15px;
+}
+.confirm-order-button {
+  border: 0px;
+  align-self: center;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.confirm-order-button:disabled {
+  background-color: rgb(242, 242, 75);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+}
+.popup-content-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.successfully-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
